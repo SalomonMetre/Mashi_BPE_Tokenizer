@@ -110,8 +110,6 @@ def main():
         with st.expander("📚 What is Fertility?"):
             st.write("""
             **Fertility** is the average number of tokens per word. 
-            - **Low Fertility (~1.0):** The tokenizer identifies whole words or large morphemes. This is highly efficient.
-            - **High Fertility (>2.5):** The tokenizer is splitting words into many small pieces (sometimes single bytes), which usually happens when the model hasn't seen the language often enough.
             """)
 
 if __name__ == "__main__":
