@@ -3,7 +3,7 @@ import os
 sys.path.append(os.path.join(os.getcwd()))
 
 import streamlit as st
-from src.Tokenizer import Tokenizer as MyTokenizer
+from Tokenizer import Tokenizer as MyTokenizer
 import random
 import tiktoken
 from transformers import AutoTokenizer
