@@ -1,4 +1,0 @@
-regex
-tiktoken
-transformers
-unicodedata2
